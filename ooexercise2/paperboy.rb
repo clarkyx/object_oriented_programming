@@ -31,7 +31,7 @@ class Paperboy
 
     @earnings += earn
     @experience += exp
-    @earnings -= 2 if @experience < quo
+    @earnings -= 2 if exp < quo
 
     return earn
   end
